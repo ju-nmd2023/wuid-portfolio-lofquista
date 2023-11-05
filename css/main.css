@@ -1,3 +1,13 @@
+/* .wrapper {
+  max-width: 1920px;
+  min-width: 1250px;
+}
+
+body {
+display: flex;
+justify-content: center;
+} */
+
 header,
 h1,
 h4,
@@ -33,6 +43,7 @@ ul {
 }
 
 header {
+  /* background: linear-gradient(90deg, lightskyblue, rgb(127, 163, 240)); */
   background-color: lightskyblue;
   height: 2.5cm;
   display: flex;
@@ -184,6 +195,7 @@ footer p {
   padding-top: 10px;
   padding-left: 10px;
   width: 0px;
+  transition: color 100ms ease-in-out;
 }
 
 .fa:hover {
