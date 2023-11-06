@@ -23,8 +23,8 @@ h3 {
   font-size: 33px;
   padding-left: 20px;
   padding-top: 6px;
-  font-weight: bolder;
   white-space: nowrap;
+  color: white;
 }
 
 p,
@@ -44,13 +44,13 @@ ul {
 
 header {
   /* background: linear-gradient(90deg, lightskyblue, rgb(127, 163, 240)); */
-  background-color: lightskyblue;
+  background-color: rgb(39, 39, 241);
   height: 2.5cm;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: -5px -3px 3px lightgrey;
-  border: 1px solid lightblue;
+  border: 1px solid navy;
   border-radius: 2px;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
   padding-right: 60px;
 }
@@ -96,7 +96,6 @@ img {
   float: left;
   clear: left;
   margin-left: -39px;
-  margin-bottom: 21px;
 }
 
 .h2-violin {
@@ -174,11 +173,11 @@ img {
 
 footer {
   margin-top: 2vh;
-  background-color: lightskyblue;
+  background-color: rgb(39, 39, 241);
   padding-bottom: 20px;
   padding-top: 10px;
   box-shadow: -5px -3px 3px lightgrey;
-  border: 1px solid lightblue;
+  border: 1px solid navy;
   border-radius: 2px;
 }
 
@@ -199,7 +198,7 @@ footer p {
 }
 
 .fa:hover {
-  color: rgb(8, 60, 230);
+  color: lightskyblue;
   text-decoration: none;
 }
 
@@ -214,7 +213,7 @@ h3 {
 }
 
 form {
-  background-color: rgb(110, 175, 240);
+  background-color: rgb(39, 39, 241);
   display: grid;
   grid-template-columns: 20%;
   grid-template-rows: repeat(6, 25px);
@@ -225,15 +224,14 @@ form {
     "email-box ."
     "subject ."
     "subject-box submit";
-  row-gap: 7px;
   column-gap: 30px;
   margin-left: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   padding-left: 20px;
   padding-top: 20px;
   margin-right: 70%;
   box-shadow: -5px -3px 3px lightgray;
-  border: 1px solid lightblue;
+  border: 1px solid navy;
   border-radius: 2px;
   font-weight: bolder;
   font-family: "Raleway", sans-serif;
@@ -269,7 +267,7 @@ form {
   grid-area: message-box;
   resize: none;
   margin-right: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
   margin-top: -10px;
   margin-bottom: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -289,24 +287,23 @@ form {
 
 .submit {
   width: 100px;
-  background-color: rgb(107, 218, 107);
+  background-color: lightskyblue;
   padding-top: 7px;
   padding-bottom: 22px;
-  box-shadow: -2px -1px 2px rgb(144, 206, 226);
-  border: 1px solid green;
+  box-shadow: -2px -1px 2px rgb(99, 99, 231);
+  border: 1px solid navy;
   border-radius: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: bold;
   grid-area: submit;
-  margin-top: -10px;
   margin-bottom: 10px;
   justify-self: end;
   margin-right: 20px;
 }
 
 .submit:hover {
-  background-color: rgb(14, 172, 14);
+  background-color: rgb(99, 99, 231);
 }
 
 .head-phone {
