@@ -44,7 +44,7 @@ ul {
 
 header {
   /* background: linear-gradient(90deg, lightskyblue, rgb(127, 163, 240)); */
-  background-color: rgb(39, 39, 241);
+  background-color: rgb(00, 04, 35);
   height: 2.5cm;
   display: flex;
   justify-content: space-between;
@@ -173,7 +173,7 @@ img {
 
 footer {
   margin-top: 2vh;
-  background-color: rgb(39, 39, 241);
+  background-color: rgb(00, 04, 35);
   padding-bottom: 20px;
   padding-top: 10px;
   box-shadow: -5px -3px 3px lightgrey;
