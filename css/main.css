@@ -213,7 +213,7 @@ h3 {
 }
 
 form {
-  background-color: rgb(39, 39, 241);
+  background-color: rgb(00, 04, 35);
   display: grid;
   grid-template-columns: 20%;
   grid-template-rows: repeat(6, 25px);
@@ -287,10 +287,10 @@ form {
 
 .submit {
   width: 100px;
-  background-color: lightskyblue;
+  background-color: rgb(104, 175, 241);
   padding-top: 7px;
   padding-bottom: 22px;
-  box-shadow: -2px -1px 2px rgb(99, 99, 231);
+  box-shadow: -2px -1px 2px rgb(2, 35, 104);
   border: 1px solid navy;
   border-radius: 2px;
   cursor: pointer;
@@ -303,7 +303,7 @@ form {
 }
 
 .submit:hover {
-  background-color: rgb(99, 99, 231);
+  background-color: rgb(50, 92, 231);
 }
 
 .head-phone {
