@@ -53,11 +53,11 @@ header {
   border-radius: 2px;
 }
 
-a:hover {
+.header-link:hover {
   text-decoration: underline;
 }
 
-a {
+.header-link {
   text-decoration: none;
   color: white;
   font-size: 20px;
