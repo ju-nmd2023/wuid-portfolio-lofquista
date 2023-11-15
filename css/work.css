@@ -1,0 +1,66 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "vanja organ"
+    "jetty julia"
+    "salah road";
+    column-gap: 50px;
+    grid-row-gap: 100px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+  }
+  
+  .work-heading {
+    padding-bottom: 5%;
+  }
+  
+  .vanja {
+    grid-area: vanja; 
+  }
+  
+  
+  .work-image:hover {
+    transform: scale(0.95);
+  }
+  
+  .work-image {
+    transition: transform 50ms ease-in-out;
+    width: 80%;
+    aspect-ratio: 3/2;
+  object-fit: cover;
+  justify-self: center;
+  cursor: pointer;
+  }
+  
+
+  
+  .road {
+    grid-area: road;
+  }
+   .jetty {
+    grid-area: jetty;
+   }
+  
+   .julia {
+    grid-area: julia;
+   }
+  
+   .organ {
+    grid-area: organ;
+    /* margin-bottom: 10%; */
+   }
+  
+   .salah {
+    grid-area: salah;
+    /* margin-bottom: 10%; */
+   }
+
+
+
+   .work-image-title {
+    position: absolute;
+    text-align: center;
+   }
+  
