@@ -94,13 +94,17 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: 
-  "vanja road"
+  "vanja organ"
   "jetty julia"
-  "organ salah";
+  "salah road";
   column-gap: 50px;
   grid-row-gap: 100px;
   align-items: start;
   justify-items: center;
+}
+
+.work-heading {
+  padding-bottom: 2%;
 }
 
 .vanja {
