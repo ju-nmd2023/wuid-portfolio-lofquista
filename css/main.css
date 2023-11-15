@@ -108,6 +108,9 @@ img {
   grid-area: vanja;
 }
 
+.vanja:hover, .road:hover, .jetty:hover, .julia:hover, .organ:hover, .salah:hover {
+  transform: scale(0.95);
+}
 
 .road {
   width: 80%;
