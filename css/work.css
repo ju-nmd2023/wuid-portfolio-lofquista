@@ -13,13 +13,8 @@
   }
   
   .work-heading {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
-  
-  .vanja {
-    grid-area: vanja; 
-  }
-  
   
   .work-image:hover {
     transform: scale(0.95);
@@ -34,10 +29,13 @@
   cursor: pointer;
   }
   
+  .vanja {
+    grid-area: vanja; 
+}
 
-  
   .road {
     grid-area: road;
+    margin-bottom: 10%;
   }
    .jetty {
     grid-area: jetty;
@@ -49,18 +47,11 @@
   
    .organ {
     grid-area: organ;
-    /* margin-bottom: 10%; */
    }
   
    .salah {
     grid-area: salah;
-    /* margin-bottom: 10%; */
+    margin-bottom: 10%;
    }
 
-
-
-   .work-image-title {
-    position: absolute;
-    text-align: center;
-   }
   
