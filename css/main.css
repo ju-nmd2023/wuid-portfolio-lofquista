@@ -1,9 +1,9 @@
-/* .wrapper {
+.wrapper {
   max-width: 1920px;
   min-width: 1250px;
 }
 
-body {
+/* body {
 display: flex;
 justify-content: center;
 } */
@@ -43,7 +43,6 @@ ul {
 }
 
 header {
-  /* background: linear-gradient(90deg, lightskyblue, rgb(127, 163, 240)); */
   background-color: rgb(00, 04, 35);
   height: 2.5cm;
   display: flex;
@@ -67,12 +66,89 @@ a {
 
 /* MAIN */
 
+/* ABOUT ME PAGE */
+
 img {
   float: left;
   box-shadow: -5px -3px 3px lightgray;
   border: 1px solid grey;
   border-radius: 2px;
 }
+
+.heading-about {
+  display: flex;
+  padding-top: 375px;
+  /* padding-top: 21%; */
+  padding-left: 25px;
+}
+
+.info {
+  display: flex;
+  max-width: 600px;
+  padding-left: 25px;
+}
+
+/* MY WORK PAGE */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  "vanja organ"
+  "jetty julia"
+  "salah road";
+  column-gap: 50px;
+  grid-row-gap: 100px;
+  align-items: start;
+  justify-items: center;
+}
+
+.work-heading {
+  padding-bottom: 2%;
+}
+
+.vanja {
+  width: 80%;
+  grid-area: vanja;
+}
+
+.vanja:hover, .road:hover, .jetty:hover, .julia:hover, .organ:hover, .salah:hover {
+  transform: scale(0.95);
+}
+
+.road {
+  width: 80%;
+  grid-area: road;
+}
+ .jetty {
+  width: 80%;
+  grid-area: jetty;
+ }
+
+ .julia {
+  width: 80%;
+  grid-area: julia;
+ }
+
+ .organ {
+  width: 80%;
+  grid-area: organ;
+  margin-bottom: 10%;
+ }
+
+ .salah {
+  width: 80%;
+  grid-area: salah;
+  margin-bottom: 10%;
+ }
+
+/* DETAIL PAGE */
+
+/* .vanja-detail {
+  
+} */
+
+/* INTERESTS PAGE */
 
 .image {
   width: 12cm;
@@ -134,16 +210,19 @@ img {
 .violin {
   padding-left: 440px;
   padding-top: 0px;
+  max-width: 600px;
 }
 
 .liverpool {
   padding-left: 440px;
   padding-top: 0px;
+  max-width: 590px;
 }
 
 .floorball {
   padding-left: 440px;
   padding-top: 0px;
+  max-width: 550px;
 }
 
 .heading-interests {
@@ -151,55 +230,9 @@ img {
   padding-left: 475px;
 }
 
-.image,
-.heading {
+.image {
   display: flex;
   justify-content: space-between;
-}
-
-.heading-about {
-  display: flex;
-  padding-top: 375px;
-  padding-left: 25px;
-}
-
-.info {
-  display: flex;
-  max-width: 600px;
-  padding-left: 25px;
-}
-
-/* FOOTER */
-
-footer {
-  margin-top: 2vh;
-  background-color: rgb(00, 04, 35);
-  padding-bottom: 20px;
-  padding-top: 10px;
-  box-shadow: -5px -3px 3px lightgrey;
-  border: 1px solid navy;
-  border-radius: 2px;
-}
-
-h4 {
-  padding-top: 10px;
-}
-
-footer h4,
-footer p {
-  margin: 3px;
-}
-
-.fa {
-  padding-top: 10px;
-  padding-left: 10px;
-  width: 0px;
-  transition: color 100ms ease-in-out;
-}
-
-.fa:hover {
-  color: lightskyblue;
-  text-decoration: none;
 }
 
 /* CONTACT PAGE */
@@ -334,3 +367,38 @@ form {
   margin-top: 40px;
   margin-bottom: -15px;
 }
+
+
+/* FOOTER */
+
+footer {
+  margin-top: 2vh;
+  background-color: rgb(00, 04, 35);
+  padding-bottom: 20px;
+  padding-top: 10px;
+  box-shadow: -5px -3px 3px lightgrey;
+  border: 1px solid navy;
+  border-radius: 2px;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+footer h4,
+footer p {
+  margin: 3px;
+}
+
+.fa {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 0px;
+  transition: color 100ms ease-in-out;
+}
+
+.fa:hover {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
