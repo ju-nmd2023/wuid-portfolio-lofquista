@@ -90,54 +90,49 @@ img {
 
 /* MY WORK PAGE */
 
-.work-main {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
-  "work-heading ."
   "vanja road"
   "jetty julia"
   "organ salah";
   column-gap: 50px;
-  row-gap: 100px;
+  grid-row-gap: 100px;
   align-items: start;
   justify-items: center;
-  /* padding-top: -50%; */
-}
-
-.work-heading {
-  grid-area: work-heading;
-  justify-self: start;
 }
 
 .vanja {
-  width: 100%;
+  width: 80%;
   grid-area: vanja;
 }
 
+
 .road {
-  width: 100%;
+  width: 80%;
   grid-area: road;
 }
  .jetty {
-  width: 100%;
+  width: 80%;
   grid-area: jetty;
  }
 
  .julia {
-  width: 100%;
+  width: 80%;
   grid-area: julia;
  }
 
  .organ {
-  width: 100%;
+  width: 80%;
   grid-area: organ;
+  margin-bottom: 10%;
  }
 
  .salah {
-  width: 100%;
+  width: 80%;
   grid-area: salah;
+  margin-bottom: 10%;
  }
 
 /* INTERESTS PAGE */
