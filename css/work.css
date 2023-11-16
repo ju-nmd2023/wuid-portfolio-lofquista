@@ -5,8 +5,8 @@
     "vanja organ"
     "jetty julia"
     "salah road";
-    column-gap: 50px;
-    grid-row-gap: 100px;
+    column-gap: 3vw;
+    grid-row-gap: 7vw;
     align-items: center;
     justify-items: center;
     width: 100vw;
@@ -32,11 +32,7 @@
   .vanja {
     grid-area: vanja; 
 }
-
-  .road {
-    grid-area: road;
-    margin-bottom: 5%;
-  }
+ 
    .jetty {
     grid-area: jetty;
    }
@@ -54,4 +50,26 @@
     margin-bottom: 5%;
    }
 
+   .road {
+    grid-area: road;
+    margin-bottom: 5%;
+  }
+
+  /* DETAIL PAGE */
+
+  .vanja-detail {
+    width: 50vw;
+    margin-top: 3%;
+  }
+
+  .detail-text {
+margin-top: 3%;
+  }
+
+  .detail-main {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: start;
+  }
   
