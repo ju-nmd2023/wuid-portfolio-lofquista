@@ -85,18 +85,18 @@ flex-direction: column;
   }
 }
 
-/* @media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
   ul {
     flex-direction: column;
     padding-bottom: 2vw;
-    padding-left: 0;
+    padding-left: 15%;
     justify-content: center;
   }
   #logo {
     font-size: 10vw;
     padding-left: 0;
   }
-} */
+}
 
 /* MAIN */
 
@@ -357,6 +357,7 @@ align-items: center;
 .fa {
   padding-left: 10px;
   transition: color 100ms ease-in-out;
+  display: flex;
 }
 
 .fa:hover {
@@ -364,3 +365,8 @@ align-items: center;
   text-decoration: none;
 }
 
+@media screen and (max-width: 700px) {
+  .fa {
+    visibility: hidden;
+  }
+}
