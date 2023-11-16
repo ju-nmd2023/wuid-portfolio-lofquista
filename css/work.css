@@ -9,7 +9,7 @@
     grid-row-gap: 100px;
     align-items: center;
     justify-items: center;
-    width: 100%;
+    width: 100vw;
   }
   
   .work-heading {
@@ -22,7 +22,7 @@
   
   .work-image {
     transition: transform 50ms ease-in-out;
-    width: 80%;
+    width: 40vw;
     aspect-ratio: 3/2;
   object-fit: cover;
   justify-self: center;
@@ -35,7 +35,7 @@
 
   .road {
     grid-area: road;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
    .jetty {
     grid-area: jetty;
@@ -51,7 +51,7 @@
   
    .salah {
     grid-area: salah;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
    }
 
   
