@@ -20,9 +20,10 @@ h3 {
 
 #logo {
   font-family: "Sacramento", cursive;
-  font-size: 33px;
-  padding-left: 20px;
-  padding-top: 6px;
+  font-size: 3vw;
+  padding-left: 2%;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
   color: white;
 }
@@ -36,15 +37,16 @@ figcaption {
 ul {
   list-style: none;
   display: flex;
-  gap: 5px;
   width: 100%;
-  justify-content: right;
+  justify-content: space-between;
+ margin: 0;
+ padding-left: 2%;
   font-weight: bold;
 }
 
 header {
   background-color: rgb(00, 04, 35);
-  height: 2.5cm;
+  height: 8vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,9 +62,41 @@ header {
 .header-link {
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  padding-right: 60px;
+  font-size: 1.3vw;
+  padding-right: 6vw;
 }
+
+@media screen and (max-width: 760px) {
+  header {
+height: auto;
+flex-direction: column;
+
+  }
+  .header-link {
+    font-size: 2.5vw;
+  }
+  #logo {
+    font-size: 6vw;
+    margin-bottom: 5px;
+  }
+  ul {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* @media screen and (max-width: 350px) {
+  ul {
+    flex-direction: column;
+    padding-bottom: 2vw;
+    padding-left: 0;
+    justify-content: center;
+  }
+  #logo {
+    font-size: 10vw;
+    padding-left: 0;
+  }
+} */
 
 /* MAIN */
 
@@ -312,26 +346,16 @@ form {
 footer {
   margin-top: 2vh;
   background-color: rgb(00, 04, 35);
-  padding-bottom: 20px;
-  padding-top: 10px;
   box-shadow: -5px -3px 3px lightgrey;
   border: 1px solid navy;
   border-radius: 2px;
-}
-
-h4 {
-  padding-top: 10px;
-}
-
-footer h4,
-footer p {
-  margin: 3px;
+  height: 5vw;
+  display: flex;
+align-items: center;
 }
 
 .fa {
-  padding-top: 10px;
   padding-left: 10px;
-  width: 0px;
   transition: color 100ms ease-in-out;
 }
 
