@@ -20,6 +20,7 @@
     transform: scale(0.95);
   }
   
+
   .work-image {
     transition: transform 50ms ease-in-out;
     width: 40vw;
@@ -27,6 +28,9 @@
   object-fit: cover;
   justify-self: center;
   cursor: pointer;
+  /* box-shadow: -5px -3px 3px lightgray;
+  border: 1px solid grey;
+  border-radius: 2px; */
   }
   
   .vanja {
@@ -55,10 +59,29 @@
     margin-bottom: 5%;
   }
 
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "vanja"
+      "organ"
+      "jetty"
+      "julia"
+      "salah"
+      "road";
+  }
+  .work-image {
+    width: 80vw;
+  }
+  .work-heading {
+   text-align: center;
+  }
+}
+
   /* DETAIL PAGE */
 
   .vanja-detail {
-    width: 50vw;
+    width: 40vw;
     max-width: 100%;
   }
 
@@ -77,4 +100,31 @@ max-width: 550px;
   .detail-fact {
     margin-top: 10%;
   }
+
+
+  @media screen and (min-width: 2000px) {
+     .vanja-detail {
+      width: 30vw;
+    } 
+  }
+
+  @media screen and (min-width: 2500px) {
+    .vanja-detail {
+      width: 20vw;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .detail-main {
+  flex-direction: column;
+    }
+    .detail-text {
+      max-width: 100vw;
+      margin-left: 0;
+    }
+    .vanja-detail {
+      width: 100vw;
+    }
+  }
+
   
