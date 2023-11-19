@@ -112,23 +112,42 @@ max-width: 550px;
   margin-right: 1%;
   /* Animation properties */
   animation-name: arrow-bounce;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-direction: alternate;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-out;
+  }
+
+  .arrow:hover {
+    animation-name: hover-arrow-bounce;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    cursor: pointer;
   }
 
   @keyframes arrow-bounce {
-    0% {
-      transform: translateX(0px);
+    0%, 100% {
+      transform: translateX(0px) rotate(-45deg);
     }
     40% {
-      transform: translateX(20px);
+      transform: translateX(18px) rotate(-45deg);
     }
     60% {
-      transform: translateX(10px);
+      transform: translateX(10px) rotate(-45deg);
     }
   }
 
+  @keyframes hover-arrow-bounce {
+    0%, 100% {
+      transform: translateX(0px) rotate(-45deg);
+    }
+    40% {
+      transform: translateX(18px) rotate(-45deg);
+    }
+    60% {
+      transform: translateX(10px) rotate(-45deg);
+    }
+  }
 
   @media screen and (min-width: 2000px) {
      .vanja-detail {
