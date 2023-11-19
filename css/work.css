@@ -105,9 +105,8 @@ max-width: 550px;
     border: solid black;
     border-width: 0 0.5rem 0.5rem 0;
   display: flex;
-  padding: 0.5vw;
+  padding: 0.5%;
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
   margin: auto;
   margin-right: 1%;
   /* Animation properties */
@@ -173,5 +172,4 @@ max-width: 550px;
       width: 100vw;
     }
   }
-
   
