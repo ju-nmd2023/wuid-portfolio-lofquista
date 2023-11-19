@@ -39,8 +39,8 @@ ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
- margin: 0;
- padding-left: 2%;
+  margin: 0;
+  padding-left: 2%;
   font-weight: bold;
 }
 
@@ -68,9 +68,8 @@ header {
 
 @media screen and (max-width: 760px) {
   header {
-height: auto;
-flex-direction: column;
-
+    height: auto;
+    flex-direction: column;
   }
   .header-link {
     font-size: 2.5vw;
@@ -121,7 +120,6 @@ flex-direction: column;
   max-width: 600px;
   padding-left: 25px;
 }
-
 
 /* INTERESTS PAGE */
 
@@ -340,7 +338,6 @@ form {
   margin-bottom: -15px;
 }
 
-
 /* FOOTER */
 
 footer {
@@ -351,7 +348,7 @@ footer {
   border-radius: 2px;
   height: 5vw;
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 .fa {
