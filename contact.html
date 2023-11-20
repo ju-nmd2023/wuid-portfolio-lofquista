@@ -30,6 +30,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -58,11 +60,11 @@
     <main>
       <h1 class="heading-contact">Contact me!</h1>
       <h3>For quick contact, use the contact form:</h3>
-      <form action="#">
+      <form id="contactForm" action="#">
 
-        <input class="name-box" type="text" placeholder="Name..." />
+        <input class="name-box" type="text" placeholder="Name..." required/>
 
-        <input class="email-box" type="email" placeholder="E-mail..."/>
+        <input class="email-box" type="email" placeholder="E-mail..." required/>
 
         <input class="subject-box" type="text" placeholder="Subject..."/>
 
