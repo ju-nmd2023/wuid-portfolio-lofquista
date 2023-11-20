@@ -85,10 +85,9 @@
     max-width: 100%;
   }
 
-
   .vanja-detail-text, .organ-detail-text {
 margin-left: 15px;
-max-width: 550px;
+max-width: 567px;
   }
 
   .vanja-detail-main, .organ-detail-main {
@@ -96,18 +95,13 @@ max-width: 550px;
     width: 100%;
     align-items: flex-start;
     margin-top: 2%;
-    /* margin-left: 14%; */
-  }
-
-  .vanja-detail-fact {
-    margin-top: 10%;
   }
 
   .arrow-right {
     border: solid black;
     border-width: 0 0.5rem 0.5rem 0;
   display: flex;
-  padding: 2%;
+  padding: 1vw;
   transform: rotate(-45deg);
   /* Animation properties */
   animation-name: arrow-bounce-right;
@@ -120,7 +114,7 @@ max-width: 550px;
     border: solid black;
     border-width: 0 0.5rem 0.5rem 0;
   display: flex;
-  padding: 2%;
+  padding: 1vw;
   transform: rotate(135deg);
   /* Animation properties */
   animation-name: arrow-bounce-left;
