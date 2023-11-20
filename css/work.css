@@ -80,6 +80,10 @@
 
   /* DETAIL PAGES */
 
+  .vanja-detail {
+    margin-left: 13vw;
+  }
+
   .vanja-detail, .organ-detail {
     width: 40vw;
     max-width: 100%;
