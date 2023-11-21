@@ -1,15 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     const contactForm = document.getElementById('contactForm');
-// const emailBox = document.getElementsByClassName("email-box");
-// });
-
-// contactForm.addEventListener('submit', function(event) {
-//     if (!emailBox.value.includes('@')) {
-//         alert('Your email address have to contain a @.');
-//         event.preventDefault();
-//     }
-// });
-  
+// Dark mode //
 
 document.addEventListener('DOMContentLoaded', function () {
     let darkMode = document.querySelectorAll(".darkmode-section");
@@ -31,11 +20,15 @@ if (isDarkMode) {
     icon.classList.add("fa-moon-o");
 }
 
+// Next line was adapted from https://www.w3schools.com/jsref/prop_win_localstorage.asp //
+
         localStorage.setItem("dark-mode", isDarkMode);
     }
     if (darkModeButton) {
         darkModeButton.addEventListener("click", toggleDarkMode);
     }
+
+// Next line was adapted from https://www.w3schools.com/jsref/prop_win_localstorage.asp //
 
     const savedDarkMode = localStorage.getItem("darkMode");
     if (savedDarkMode === "true") {
