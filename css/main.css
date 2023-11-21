@@ -363,6 +363,8 @@ footer {
   height: 5vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .fa {
@@ -376,6 +378,10 @@ footer {
   text-decoration: none;
 }
 
+.icons-container {
+  display: flex;
+}
+
 @media screen and (max-width: 700px) {
   footer {
     height: auto;
@@ -387,7 +393,6 @@ footer {
 .darkmode-button {
   display: flex;
 padding-right: 13px;
-margin-left: 71%;
 }
 
 .dark-mode {
