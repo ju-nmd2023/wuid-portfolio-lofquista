@@ -28,10 +28,14 @@ h3 {
   color: white;
 }
 
-p,
+
 figcaption {
   font-family: "Lora", serif;
   color: black;
+}
+
+p {
+  font-family: "Lora", serif;
 }
 
 ul {
@@ -102,16 +106,15 @@ header {
 /* ABOUT ME PAGE */
 
 .profile-image {
-  float: left;
   box-shadow: -5px -3px 3px lightgray;
   border: 1px solid grey;
   border-radius: 2px;
+  margin-top: 1%;
+  width: 42vw;
 }
 
 .heading-about {
   display: flex;
-  padding-top: 375px;
-  /* padding-top: 21%; */
   padding-left: 25px;
 }
 
@@ -119,6 +122,17 @@ header {
   display: flex;
   max-width: 600px;
   padding-left: 25px;
+}
+
+.aboutme-img-text-container {
+display: flex;
+}
+
+.aboutme-alltext-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+justify-content: center;
 }
 
 /* INTERESTS PAGE */
@@ -360,6 +374,31 @@ footer {
 .fa:hover {
   color: lightskyblue;
   text-decoration: none;
+}
+
+.darkmode-button {
+  display: flex;
+padding-right: 13px;
+margin-left: 71%;
+}
+
+.dark-mode {
+  background-color: rgb(1, 3, 20);
+  color: #ffffff;
+}
+
+.dark-mode img, .dark-mode header, .dark-mode footer {
+  box-shadow: none;
+  background-color: rgb(7, 12, 48);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.dark-mode .arrow-right, .dark-mode .arrow-left {
+  border-color: #ffffff;
+}
+
+.fa-sun-o, .fa-moon-o {
+  padding-top: 1px;
 }
 
 @media screen and (max-width: 700px) {
